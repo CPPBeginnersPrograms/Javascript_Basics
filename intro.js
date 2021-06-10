@@ -30,3 +30,14 @@ switch(number)
     default:
         console.log("no number matching")
 }
+const addobj={
+    k1: 23,
+    k2: 44
+}
+
+function addfun()
+{
+    return addobj.k1 + addobj.k2;
+}
+
+console.log("value:", addfun());
