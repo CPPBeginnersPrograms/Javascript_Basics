@@ -41,3 +41,7 @@ function addfun()
 }
 
 console.log("value:", addfun());
+
+var obj1={alarm:1, data:2}
+
+console.log(obj1);
